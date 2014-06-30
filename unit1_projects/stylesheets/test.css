@@ -3,8 +3,10 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 header {
-	height: 75px;
-	background: #999;
+	height: 150px;
+	background-image: url(...images/Header.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	color: white;
 	padding: 15px 15px 0 15px;
 }
@@ -26,6 +28,8 @@ nav ul {
 nav ul li {
 	background: black;
 	color: white;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
 	display: inline-block;
 	list-style-type: none;
 	padding: 5px 15px;
@@ -33,6 +37,10 @@ nav ul li {
 
 nav ul li a {
 	color: white;
+}
+
+#image {
+
 }
 .row {
 	text-align: center;
