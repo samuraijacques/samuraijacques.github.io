@@ -38,9 +38,12 @@ nav ul li a {
 	padding: 10px .5%;
 	float: left;
 	margin: 1%;
-	width: 40%;
+	width: 30%;
 }
 
 footer {
+	padding: 40px;
+	margin: 40px 0 0 0;
+	border-top: solid #333;
 	clear: both;
 }
