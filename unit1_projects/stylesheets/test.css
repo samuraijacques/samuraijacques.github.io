@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: "Courier New", Courier, monospace;
 }
 header {
 	background: #999;
@@ -37,7 +38,7 @@ nav ul li a {
 	padding: 10px .5%;
 	float: left;
 	margin: 1%;
-	width: 31%;
+	width: 40%;
 }
 
 footer {
