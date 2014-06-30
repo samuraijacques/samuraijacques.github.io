@@ -3,6 +3,7 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 header {
+	height: 15%;
 	background: #999;
 	color: white;
 	padding: 15px 15px 0 15px;
