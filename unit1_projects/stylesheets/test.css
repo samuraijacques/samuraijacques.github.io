@@ -3,7 +3,7 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 header {
-	height: 15%;
+	height: 50%;
 	background: #999;
 	color: white;
 	padding: 15px 15px 0 15px;
@@ -41,6 +41,7 @@ nav ul li a {
 }
 
 .col {
+	font-weight: bold;
 	background: #333;
 	color: white;
 	padding: 10px .5%;
