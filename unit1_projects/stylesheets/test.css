@@ -28,13 +28,13 @@ nav ul li {
 nav ul li a {
 	color: white;
 }
-
 .row {
-
+	text-align: center;
 }
-
 .col {
 	background: #333;
+	color: white;
+	padding: 10px .5%;
 	float: left;
 	margin: 1%;
 	width: 31%;

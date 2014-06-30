@@ -8,7 +8,7 @@ header{
 	padding-bottom: 20px;
 	overflow: hidden;
 }
-#container{
+.container{
 	background-color: #FFFFFF;
 }
 #header{
@@ -43,5 +43,5 @@ header{
 	border-top: 10px;
 	width: 1000px;
 	text-align: center;
-	
+
 }
