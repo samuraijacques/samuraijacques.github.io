@@ -10,11 +10,13 @@ header {
 }
 
 header h1 {
-	margin-bottom: 0;
+	vertical-align: bottom;
+	margin: 0;
 	display: inline;
 }
 nav ul {
-	margin-bottom: 0;
+	vertical-align: text-bottom;
+	margin: 0;
 	padding-top: 0 0 0 15px;
 	display: inline;
 	font-family: "Courier New", Courier, monospace;
