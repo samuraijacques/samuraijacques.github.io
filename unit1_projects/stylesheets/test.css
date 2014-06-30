@@ -3,21 +3,21 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 header {
-	height: 100px;
+	height: 75px;
 	background: #999;
 	color: white;
 	padding: 15px 15px 0 15px;
-	font-family: "Courier New", Courier, monospace;
 }
 
 header h1 {
-	margin: 0;
+	margin-bottom: 0;
 	display: inline;
 }
 nav ul {
-	margin: 0;
+	margin-bottom: 0;
 	padding-top: 0 0 0 15px;
 	display: inline;
+	font-family: "Courier New", Courier, monospace;
 }
 
 nav ul li {
