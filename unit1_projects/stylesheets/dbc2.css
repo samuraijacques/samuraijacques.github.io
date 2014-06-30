@@ -3,27 +3,45 @@ body{
 	overflow: scroll;
 }
 header{
-	background-color: #FFFFFF;
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	overflow: hidden;
 }
 #container{
-
+	background-color: #FFFFFF;
 }
 #header{
-
+	text-align: center;
+	margin-left: 200px;
+	width: 1000px;
+	height: 100px;
 }
 #sidebar{
-
+	background-color: blue;
+	color: white;
+	float: left;
+	width: 200px;
+	height: 1350px;
+	padding: 10px;
 }
 #bulletpoints{
-
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#content{
+	float: none;
+	text-align: center;
+	width: 1000px;
+	height: 1350px;
 }
 #intro{
-
+	margin-left: 220px;
+	width: 1000px;
 }
 #footer{
-
+	border-top: 10px;
+	width: 1000px;
+	text-align: center;
+	
 }
