@@ -32,6 +32,11 @@ nav ul li a {
 .row {
 	text-align: center;
 }
+
+.row p {
+	font-family: "monospace" monospace;
+}
+
 .col {
 	background: #333;
 	color: white;
