@@ -3,10 +3,11 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 header {
-	height: 200px;
+	height: 100px;
 	background: #999;
 	color: white;
 	padding: 15px 15px 0 15px;
+	font-family: "Courier New", Courier, monospace;
 }
 
 header h1 {
