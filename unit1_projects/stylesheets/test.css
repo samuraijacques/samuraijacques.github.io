@@ -2,14 +2,22 @@ body {
 	margin: 0;
 	font-family: "Courier New", Courier, monospace;
 }
+
 header {
-	height: 150px;
-	background-image: url("images/header.jpg");
-	background-color: #999;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	color: white;
-	padding: 15px 15px 0 15px;
+	height: 350px;
+	width: 100%;
+	color: #999;
+    /* make background img maintain aspect ratio, from http://kimili.com/journal/the-flexible-scalable-background-image-redux */ 
+	background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ 
+    margin-top: -40px;
+ 
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    /* end code from http://kimili.com/journal/the-flexible-scalable-background-image-redux */ 
 }
 header h1 {
 	font-size: 200%;
