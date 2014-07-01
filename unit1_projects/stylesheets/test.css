@@ -4,20 +4,16 @@ body {
 }
 
 header {
-	height: 250px;
-	color: #999;
-    /* make background img maintain aspect ratio, from http://kimili.com/journal/the-flexible-scalable-background-image-redux */ 
+	height: 150px;
 	background-image: url("../images/header.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
- 
-    margin-top: -40px;
- 
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    /* end code from http://kimili.com/journal/the-flexible-scalable-background-image-redux */ 
+	background-color: #999;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+	padding: 15px 15px 0 15px;
 }
+
 header h1 {
 	font-size: 200%;
 	vertical-align: -50px;
