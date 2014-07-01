@@ -1,6 +1,10 @@
 body {
 	margin: 0;
 	font-family: "Courier New", Courier, monospace;
+	border-left: solid #09090A; 
+	border-left-width: 20px;
+	border-right: solid #09090A;
+	border-right-width: 20px;
 }
 
 header {
@@ -46,6 +50,12 @@ nav ul li a {
 	color: white;
 }
 
+img {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
+}
+
 .row {
 	text-align: center;
 	margin: 20px;
@@ -57,6 +67,7 @@ nav ul li a {
 
 .row p {
 	font-family: "monospace" monospace;
+	margin: 10px
 	border: 1px black;
 }
 
@@ -67,14 +78,14 @@ nav ul li a {
 	padding: 10px .5%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;
+	width: 45%;
 }
 
 .paragraph {
 	padding: 10px .5%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 35%;
+	width: 40%;
 }
 
 footer {
