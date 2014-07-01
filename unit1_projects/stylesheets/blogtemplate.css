@@ -1,44 +1,84 @@
-.container{
-	width:900px;
-	margin: 0 auto;
-	overflow: auto;
+body {
+	margin: 0;
+	font-family: "Courier New", Courier, monospace;
 }
-.header{
-	background: #999;
+
+header {
+	height: 220px;
+	background-image: url("../images/header.jpg");
+	background-color: #09090A;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	color: white;
-	height: 90px;
+	padding: 15px 15px 0 15px;
 }
-#nav{
-	height: 30px;
+
+header h1 {
+	font-size: 250%;
+	vertical-align: -180px;
+	margin: 0;
+	display: inline;
 }
-#nav ul{
-	list-style: none;
-	height: 30px;
-	padding: 0px;
-	margin: 0px;
+nav ul {
+	position: absolute;
+	right: 20px;
+	top: 190px;
+	margin: 0;
+	padding-top: 0 0 0 10px;
+	display: inline;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 125%
 }
-#nav ul li{
-	background: black;
+
+nav ul li {
+	background: #09090A;
 	color: white;
-	list-style: none;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
 	display: inline-block;
-	float: left;
-	padding: 5px 15px;
+	list-style-type: none;
+	padding: 5px 10px;
 }
-#nav ul li a{
+
+nav ul li a {
 	color: white;
 }
-#main{
-	overflow: auto;
+
+.row {
+	text-align: center;
+	margin: 20px;
 }
-#main_left{
-	float: left;
-	width: 600px;
+
+.pink {
+	color: #EE0061;
 }
-#main_right{
-	float: left;
-	width: 300px;
+
+.row p {
+	font-family: "monospace" monospace;
+	border: 1px black;
 }
-#footer{
-	height: 40px;
+
+.col {
+	font-weight: bold;
+	background: #09090A;
+	color: white;
+	padding: 10px .5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.paragraph {
+	padding: 10px .5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+footer {
+	padding: 40px;
+	margin: 40px 0 0 0;
+	border-top: solid #09090A;
+	clear: both;
 }
